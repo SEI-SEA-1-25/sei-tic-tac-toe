@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    font-size: 150px;
+    background-color: rgb(232, 232, 146);
+    width: 550px;
+    height: 550px;
+    justify-content: center;
+    align-content: center;
+    display: inline-grid;
+    grid-template-columns: 120px 120px 120px ;
+    grid-template-rows: 120px 120px 120px ;
+    grid-gap: 5px;
+    margin: 50px;
+    border: 7px solid darkcyan;
+    border-radius: 50px;
+}
+
+.container .box {
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    font-size: 50px;
+    color:rgb(75, 57, 57);
+}
+
+#tie {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+.resetBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#reset {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1em;
+    color: black;
+    border-radius: 10px;
+}
+
+#reset:hover {
+    background-color: rgb(127, 208, 127);
+}
